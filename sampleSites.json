@@ -1,0 +1,117 @@
+class samples {
+"name": "Sharpsma.com",
+"Description":"Managed Drupal multisite instance. Site has multiple themes, pages, views, variants and servers. Tasks included editing .tmp, .info and other source code to troubleshoot and obtain business objectives.
+
+Sharpcircuit.sharpsma.com
+Managed and troubleshoot company intranet. 
+
+Document.sharpsma.com
+Managed and researched replacement for unsupported legacy DMS (Documents Management Server) site (knowledgetree)
+
+MuseumTour.com
+Project Manager and Lead Developer on site re-skin completed 10/1/2013. Development included new UI using Jquery for multiple product listings interacting with shopping cart. 
+
+Zepherinc.com
+Managed creation of 'Pixel Perfect' Wordpress site from PSD file. 
+
+Nineteen67.com
+This is a Wordpress site based on a theme from webcreations. I was the customer contact and the loan developer. 
+
+Sbirtoregon.org
+Created a javascript movie player for modern browsers. Updated and maintained html5 site. 
+
+Phamexpo.com
+Created Joomla with Magento ecommerce. Added many components, modules and plug-ins to create a social media hub and Magento ecommerce site for a new trade show company in Oregon City OR. This site has been deprecated for a wordpress site. 
+
+www.feedachildsmind.org
+Providing updates and bug fixes to this MVC style Content Management System(CMS) based on CodeIgniter and fuel. 
+
+Headhunters NW 
+This site is in its final development stages and will be live soon. I managed and deployed the development of the site from wireframe to prototype to live production. I determined the best Content Management System (CMS) to use based on the projects sponsors requirements and available modules. I chose Joomla. The site has a unique slideshow in the body using CSS3 (no JavaScript) In addition I researched the optimum keywords to use in the sites SEO strategy and wrote the page descriptions. 
+
+Makeupmag.com
+This is an oscommerce site with some custom Content Management System (CMS) built in. This is a highly customized site that uses specific business logic required by Key Publishing group. I was responsible for many updates and maintenance including adding a Pro Card application that has implications across the whole site, discounting based on group, currency values and interaction with the ticket and subscription software. 
+
+IMATS.net
+This is currently a Content Management System (CMS) site built on an MVC framework and I am currently managing the ecommerce build. I work with the art department, editors and third party developers in managing this site. Update actionscript in flv file for booth assignments. Created UI and hand coded PHP and JavaScript for our Student Competition page that swaps out videos into a div. (http://www.imats.net/london/london_student_competition.php)
+
+Makeup411.com
+This is currently a CMS site and I am currently managing the ecommerce build. I work with the art department, editors and third party developers in managing this site. Currently working on a server side script to detect browser/mobile attributes that incorporates WURFL API and a redirect to a mobile version of this site. 
+
+Keypublishinggroup.com
+Built this in house using PHP, HTML 5 and a bit of jquery. There are also two self posting forms on this site. I skinned the photoshop files produced by our Art Director and produced the site in a few days. 
+http://keypublishinggroup.com/formWithAttachment/  http://keypublishinggroup.com/contact.php
+
+nvoicepay.com
+As the project manager on this site I was responsible for updates to the public facing Wordpress site as well as integration of the SAAS invoicing system.  
+
+Virtensys.com
+As the project manager on this Drupal site I was responsible for content updates. 
+
+NorthCoastlodge.net
+In this project I designed a custom Wordpress theme in Photoshop. I then produced this multi-page website including a plug in for making rental reservations.
+
+MagnoliaSeniorCare.com
+In this project I designed a custom Wordpress theme in Photoshop. I then produced this multi-page website.
+
+VancouverWoodworks.com
+In this project I developed the entire site. I created the UI  in Photoshop and skinned  our ecommerce engine with the art.  As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. The site has since been migrated to an ASP environment but has the same look and feel. 
+
+DiscoverLocals.org
+I was involved from the beginning creating the brand identity for this non-profit network. Working with the steering committee I developed all aspects of their brand including ID, collateral and marketing across the print and internet space. The website itself is based on my own grfxsclub application running on a fusebox framework and object oriented MySQL datasource. Email campaigns are an intricate part to the marketing of this site. 
+
+
+theweddinggenies.com
+This site was built using coldfusion, AJAX, AS3 (in both FLA and Flex apps) for a rich internet experience for wedding planners. I was the art director and project manager responsible for work documents, budgeting, time management, human assets, monitoring progress and evaluating results. I created the design templates, user cases, site map, Gantt chart and the assignment matrix. I worked with a production team that I picked from as far away as New Zealand. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.
+
+Snowboard Builder Prototype
+This site is a complex mix of coldfusion, AS3 in Flash, Ruby on rails and ImageMagic. I worked with a team of developers as the project manager, server manager and art director. This site will allow registered users to upload image assets and then with a Flash based GUI, design a snowboard. The administrator then can produce print ready pdf’s. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.
+
+Audio Rental Site
+This site uses CFC’s and Flash remoting to display rental and sales merchandise in an attractive flash based GUI. I designed and built the GUI with Flash and worked with a AS2 developer to transact with the CF administrator that I produced. As the systems manager for this project I created the MySQL schema, Coldfusiondatasource and in IIS I administered the configuration of the domain and virtual directories.
+
+world-cuisine.com
+This site was produced by my team with myself as Production Manager. It incorporates Flash for a nice flipping page effect (removed in update of April-08). The site is produced on our store framework using Coldfusion. As the systems manager for this project I created the MySQL schema, Coldfusion datasource and in IIS I administered the configuration of the domain and virtual directories. 
+
+archerysportsusa.com
+Another eCommerce site based on our coldfusion framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design.
+
+Northridgeinc.com
+In this production I worked alone to graft new artwork I created to a coldfusion based framework for both eCommerce and dynamic content. I accomplished this using Adobe Fireworks and Dreamweaver. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design.
+
+cos-orthopaedics.com
+A simple static site with some nice FLA. I functioned as the art director and systems manager. This site has since been replaced. 
+
+CulinaryDirect.com
+Another eCommerce site based on our Coldfusion store framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design. In addition I implemented a PPC campaign on Google Adwords and Overture. The site has since been updated. 
+
+
+Experience -Print design and production
+
+The Golden Globe Awards (Hollywood Foreign Press Association) 
+Worked with publisher to design and produce the Golden Globes program book from 1998-2000. 
+
+The Comedy Awards (George Schlatter Productions)
+Worked with producer Paula Ponce Chaltas to design and develop program books for television event Efrom 1993-2001. 
+
+Mixed Media Serigraphs (Various Artists) 
+Worked with publishers like Randy Quiring to produce limited edition mixed media serigraphs from original paintings.
+
+World Cuisine Catalog (World Cuisine Culinary Equipment, Los Angeles, CA)
+Worked with President of World Cuisine, Christian Jarry to produce color product catalog with up to 20 eight-page signatures from 1999-2007.
+
+World Cuisine Packaging (World Cuisine Culinary Equipment, Los Angeles, CA)
+Various packaging projects over 8 years.
+
+MVAP Products Catalog (MVAP, Newbury Park, CA)
+Worked with marketing VP Eric Jensen to produce 60 plus page color product catalog from 2003-2007.
+
+MENU Magazine (McGee Publishers, Burbank, CA)
+Worked with publisher to produce 2 monthly magazine of up to 64 pages. 
+
+Experience –Other
+
+World Cuisine Display Video(World Cuisine Culinary Equipment, Los Angeles, CA)
+Producer and video editor of looping display video that appeared in Bloomingdales retail mall outlets. In this project I developed all plans, wrote the script, assisted in storyboarding, hired film crew, selected on screen talent, oversaw filming, edited video with Final Cut Pro and distributed copies to retail outlets along with printed collateral. 
+
+}

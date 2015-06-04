@@ -1,0 +1,269 @@
+
+/*mobile styles*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px), @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+			
+/*html {
+	background: url(../images/bgBig.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
+body {
+		background-color: black;
+		width: 320px;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+	}
+		#java,#grandcentral, #riverview, #kiggins, #library, #waterfront, #cityHall, #hilton, #gatedPark,#turtle   {
+		display:none;		
+	}	
+
+	.ballonText {
+		display:none;
+	}
+	
+	.button {
+		display:none;
+	}
+	
+		#javaButton, #grandcentralButton, riverviewButton, kigginsButton, #libraryButton, #waterfrontButton, #cityhallButton, #hiltonButton, #gatedParkButton, #turtleButton {
+		display: none;	
+	}
+	
+
+	/* "auto" makes the left and right margins center the wrapper */
+#wrap { 
+	display:none; 
+}
+
+#iphone {
+	display:block;
+}
+
+
+	}
+	/*tablet styles*/
+	@media only screen and (width:600px) , @media only screen and (min-width:480px )and (max-width:768px), @media (max-device-width: 768px) and (orientation: portrait) {
+		
+body {
+		background-color: black;
+		width: 320px;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+	}
+		#java,#grandcentral, #riverview, #kiggins, #library, #waterfront, #cityHall, #hilton, #gatedPark,#turtle   {
+		display:none;		
+	}	
+
+	.ballonText {
+		display:none;
+	}
+	
+	.button {
+		display:none;
+	}
+	
+		#javaButton, #grandcentralButton, riverviewButton, kigginsButton, #libraryButton, #waterfrontButton, #cityhallButton, #hiltonButton, #gatedParkButton, #turtleButton {
+		display: none;	
+	}
+	
+
+	/* "auto" makes the left and right margins center the wrapper */
+#wrap { 
+	display:none; 
+}
+
+#iphone {
+	display:block;
+}
+
+
+		
+		}
+		
+		/*desktop styles*/
+		@media only screen and (min-width:769px){
+			
+body {
+		background-image:url(images/map.jpg);
+		background-repeat:no-repeat;
+		background-color: black;
+		width: 960px;
+		height: 600px;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+	}
+		#java {
+		background-image:url(images/java-house.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}	#grandcentral {
+		background-image:url(images/grand-central.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}	#riverview {
+		background-image:url(images/riverview.png);
+		display:none;
+		width: 960px;
+		height: 600px;	
+		//margin-top: -46px;	
+}	#kiggins {
+		background-image:url(images/kiggins.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}	#library {
+		background-image:url(images/library.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}	#waterfront {
+		background-image:url(images/waterfront.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}	#cityHall {
+		background-image:url(images/city-hall.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}
+		
+	#hilton {
+		background-image:url(images/hilton.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}
+	#gatedPark {
+		background-image:url(images/gated-park.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}
+	#turtle {
+		background-image:url(images/turtle.png);
+		display:none;
+		width: 960px;
+		height: 600px;		
+}
+	.ballonText {
+		/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+ /* IE 5-7 */
+  filter: alpha(opacity=85);
+ /* Netscape */
+  -moz-opacity: 0.85;
+ /* Safari 1.x */
+  -khtml-opacity: 0.85;
+  /* Good browsers */
+  opacity: 0.85;
+		z-index:3;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+		
+		
+	}
+	
+	.button {
+		width:24px;
+		height:44px;
+		padding:0 0 0 0;
+		margin:0 0 0 0;
+		cursor:pointer;
+	}
+	
+		#javaButton {
+		position:absolute;
+		top:153px;
+		left:159px;	
+	}
+	
+	#javaButton:hover ~ #java {
+    display: block;
+}
+
+	#grandcentralButton {
+		position:absolute;
+		top:275px;
+		left:845px;	
+	}
+	
+	#grandcentralButton:hover ~ #grandcentral {
+    display: block;
+}
+
+	
+	#riverviewButton {
+		position:absolute;
+		top:195px;
+		left:175px;	
+	}
+	
+	#riverviewButton:hover ~ #riverview {
+    display: block;
+}
+
+	/* "auto" makes the left and right margins center the wrapper */
+#wrap { 
+	width: 960px; 
+	margin: 0 auto; 
+}
+
+#iphone {
+	display:none;
+}
+
+
+
+
+				
+			}
+			
+			
+
+/***** Global Elements
+html, body { border:0; margin:0; padding:0; }
+body { font:12px Arial, Helvetica, sans-serif; background: url(../images/page-background.png) repeat; }
+
+img { border:0;}
+a img { border:0 }
+
+a, a:link, a:visited { text-decoration:underline;}
+a:hover {text-decoration: none;} *****/
+
+
+
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; 
+	width: 100%; */
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter 
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";*/
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 
+	filter: alpha(opacity=50);*/
+
+	/* Older than Firefox 0.9
+	-moz-opacity:0.5; */
+
+	/* Safari 1.x (pre WebKit!)
+	-khtml-opacity: 0.5; */
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ 
+	opacity: 0.5;*/
+
+
+
+
