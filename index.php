@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Patrick McDonough Vancouver Web Developer-Project Manager</title>
 
@@ -10,45 +9,37 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
         <link rel="stylesheet" href="css/angular.css" type="text/css">
-
-<!--         HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/jquery-1.7.2.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!--         Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <!--ANGULAR -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
         <script src="js/sampleSites.js"></script>
-        <script src="js/readmore.js"></script>
-<!--        <script src="js/contact.js"></script>-->
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="http://use.typekit.com/thg3ssc.js"></script>
         <script type="text/javascript">try {
             Typekit.load();
         } catch (e) {
+                Console.log("Typescript error");
         }</script>
-<script src="js/tabbedContent.js" type="text/javascript"></script>
+        <script src="js/tabbedContent.js" type="text/javascript"></script>
         <script src="js/respond.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controllers.js"></script>
-        <!--<script type="text/javascript" src="js/custom.js"></script>-->
-<!--        <script type="text/javascript" src="js/combined.js"></script>-->
     </head>
   <body>
-      
-    
-              
-
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container-fluid">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -61,11 +52,7 @@
               </div>
               <?php require_once('./config.php'); ?>
 
-              <form action="charge.php" method="post">
-                  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key="<?php echo $stripe['publishable_key']; ?>"
-                          data-amount="5000" data-description="One year's subscription"></script>
-              </form>
+
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                   <li class="active"><a href="#about">About Me</a></li>
@@ -96,9 +83,9 @@
     <main class="row">
         <h3 class="col articleTitle col-lg-2 col-md-offset-0 col-sm-2 hidden-phone hidden-xs ">About Me</h3>
         <section class=" col-lg-9 col-md-8 col-md-offset-0 col-sm-6 col-xs-7 col-xs-offset-0">
-            <p class="lead">I am currently developing under the m   oniker ProDesignDevelop out of Vancouver WA. 
+            <p class="lead">I am currently developing under the moniker ProDesignDevelop out of Vancouver WA.
                 I am a LAMP stack developer with front and back end experience. I just finished a contract position with 
-                <a href="http://cmdagency.com">CMD Agency of Portland OR </a> as a LAMP stack developer.</p>
+                <a href="http://hp.com">Hewlett-Packard </a> as a front end developer.</p>
             <figure id="patrick" class="img-rounded pull-right hidden-phone" >
             <img style="margin:0 10px; width: 100%" src="img/PatrickAlone2.png" 
                  alt="Patrick McDonough Web Developer Portland OR">
@@ -119,7 +106,7 @@
             <p><strong>Development :</strong> I have spent thousands of hours (at least it seems) pouring over code and grudgingly 
                 learning the syntax and best practices for developing websites. I have coding abilities in HTML, HTML5, XHTML, 
                 PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
-                    <img src="/img/w3cert.png" alt="W3Certified" width="50" ></a>, ColdFusion, CSS, SQL, Java-script, Jquery and
+                    <img src="img/w3cert.png" alt="W3Certified" width="50" ></a>, ColdFusion, CSS, SQL, Java-script, Jquery and
                 a few others. </p>
         </section>
         <div class="col col-lg-1 col-xs-7">&nbsp;</div>
@@ -175,7 +162,7 @@
                                 </tr>
                                 <tr>
                                     <td>PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
-                                            <img alt="w3C certification" src="/img/w3cert.png" width="50" ></a>"</td>
+                                            <img alt="w3C certification" src="img/w3cert.png" width="50" ></a>"</td>
                                     <td>SQL</td>
                                     <td>Web Services</td>
                                     <td>SOAP</td>
@@ -200,14 +187,12 @@
                                 </tr>
                             </table>
                         </li>
-
                     </ul>
                     <ul>
                         <li><i class=" icon-check icon-white"></i>Optimization SEO</li>
                         <li><i class=" icon-check icon-white"></i>Social Media</li>
                         <li><i class=" icon-check icon-white"></i>Email Marketing</li>
                         <li><i class=" icon-check icon-white"></i>PPC</li>
-
                     </ul>
                     <ul>
                         <li><i class=" icon-check icon-white"></i>LAN Deployment and Administration</li>
@@ -215,7 +200,6 @@
                         <li><i class=" icon-check icon-white"></i>Domain Deployment and Administration</li>
                         <li><i class=" icon-check icon-white"></i>Multi Platform </li>
                     </ul>
-
                 </div>
 
             </div>  
@@ -224,16 +208,12 @@
 
     </article>
 <?php include( 'inc/portfolioCar.inc'); ?>
-   <!-- col-md-offset-0 gal col-lg-8 col-md-8 col-sm-4 col-lg-offset col-md-offset-2 col-xs-3 col-xs-offset-0
-         col-lg-3 pull-right vcenter hidden-phone hidden-sm hidden-xs   --> 
 
     <article> 
         <div class="row container-fluid" id="webGallery"  ng-app="webGallery">
         <div class="col col-lg-2 col-md-2 ">
             <h3 class="articleTitle">Web Gallery</h3>
         </div>
-            
-        
         <div class="row" ng-controller="GalleryController as gallery">
             <ul class="col gal col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-7 col-xs-offset-0 ">
                 <li ng-repeat="sites in gallery.websites">
@@ -267,56 +247,7 @@
                </div>
             
    </article>
-      
-<!--       <section class="row" ng-app="contactApp" id="contactMe">
-    <body ng-app="contactApp" > 
-    <div class="vertical-middle">
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h2 class="panel-title">Contact Form</h2>
-                </div>
-                <div ng-controller="ContactController" class="panel-body">
-                    <form ng-submit="submit(contactform)" name="contactform" method="post" action="" class="form-horizontal" role="form">
-                        <div class="form-group" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
-                            <label for="inputName" class="col-lg-2 control-label">Name</label>
-                            <div class="col-lg-10">
-                                <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group" ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
-                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                            <div class="col-lg-10">
-                                <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group" ng-class="{ 'has-error': contactform.inputSubject.$invalid && submitted }">
-                            <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-                            <div class="col-lg-10">
-                                <input ng-model="formData.inputSubject" type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message" required>
-                            </div>
-                        </div>
-                        <div class="form-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
-                            <label for="inputMessage" class="col-lg-2 control-label">Message</label>
-                            <div class="col-lg-10">
-                                <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..." required></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-offset-2 col-lg-10">
-                                <button type="submit" class="btn btn-default" ng-disabled="submitButtonDisabled">
-                                    Send Message
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                    <p ng-class="result" style="padding: 15px; margin: 0;">{{ resultMessage }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-       
+
     <footer class="row footer navbar-fixed-bottom">
 
         <div class="container">

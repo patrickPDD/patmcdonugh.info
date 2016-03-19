@@ -128,23 +128,23 @@
 },
 {
 "name": "theweddinggenies.com",
-"shortname": "wedding",
-"url:"http://MuseumTour.com",
-"description:"This site was built using coldfusion, AJAX, AS3 (in both FLA and Flex apps) for a rich internet experience for wedding planners. I was the art director and project manager responsible for work documents, budgeting, time management, human assets, monitoring progress and evaluating results. I created the design templates, user cases, site map, Gantt chart and the assignment matrix. I worked with a production team that I picked from as far away as New Zealand. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.",
+"shortname": "",
+"url" : null,
+"description" : "This site was built using coldfusion, AJAX, AS3 (in both FLA and Flex apps) for a rich internet experience for wedding planners. I was the art director and project manager responsible for work documents, budgeting, time management, human assets, monitoring progress and evaluating results. I created the design templates, user cases, site map, Gantt chart and the assignment matrix. I worked with a production team that I picked from as far away as New Zealand. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.",
 "deprecated": "true"
 },
 {
 "name": "Snowboard Builder Prototype",
 "shortname": "sbowboard",
-"url": "",
+"url": null,
 "description": "This site is a complex mix of coldfusion, AS3 in Flash, Ruby on rails and ImageMagic. I worked with a team of developers as the project manager, server manager and art director. This site will allow registered users to upload image assets and then with a Flash based GUI, design a snowboard. The administrator then can produce print ready pdf’s. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.",
 "deprecated": "false"
 },
 {
 "name": "Audio Rental Site",
 "shortname": "audiofx",
-"url:"http://www.dfxaudio.com/",
-"description:"This site uses CFC’s and Flash remoting to display rental and sales merchandise in an attractive flash based GUI. I designed and built the GUI with Flash and worked with a AS2 developer to transact with the CF administrator that I produced. As the systems manager for this project I created the MySQL schema, Coldfusiondatasource and in IIS I administered the configuration of the domain and virtual directories.",
+"url" : "http://www.dfxaudio.com/",
+"description" : "This site uses CFC’s and Flash remoting to display rental and sales merchandise in an attractive flash based GUI. I designed and built the GUI with Flash and worked with a AS2 developer to transact with the CF administrator that I produced. As the systems manager for this project I created the MySQL schema, Coldfusiondatasource and in IIS I administered the configuration of the domain and virtual directories.",
 "deprecated": "true"
 },
 {
@@ -157,8 +157,8 @@
 {
 "name": "archerysportsusa.com",
 "shortname": "archery",
-"url:"http://archerysportsusa.com",
-"description:"Another eCommerce site based on our coldfusion framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design.",
+"url" : "http://archerysportsusa.com",
+"description" : "Another eCommerce site based on our coldfusion framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design.",
 "deprecated": "true"
 },
 {
