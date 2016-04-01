@@ -31,7 +31,7 @@
         <script type="text/javascript">try {
             Typekit.load();
         } catch (e) {
-                Console.log("Typescript error");
+                console.log("Typescript error");
         }</script>
         <script src="js/tabbedContent.js" type="text/javascript"></script>
         <script src="js/respond.js"></script>
