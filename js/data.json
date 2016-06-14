@@ -38,7 +38,7 @@
 {
 "name": "Phamexpo.com",
 "shortname": "phame",
-"url": " ",
+"url": null,
 "description": "Created Joomla with Magento ecommerce. Added many components, modules and plug-ins to create a social media hub and Magento ecommerce site for a new trade show company in Oregon City OR. This site has been deprecated for a wordpress site.", 
 "deprecated": "true"
 },

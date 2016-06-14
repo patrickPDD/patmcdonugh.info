@@ -37,6 +37,7 @@
         <script src="js/respond.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controllers.js"></script>
+        <script src="bower_components/angular-simple-slideshow/angular-simple-slideshow.js"></script>
     </head>
   <body>
      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -56,7 +57,7 @@
               <ul class="nav navbar-nav">
                   <li class="active"><a href="#about">About Me</a></li>
                   <li class="hidden-phone"><a class="transition" href="#skills">Skills</a></li>
-                  <li class="hidden-phone"><a href="#samples">Portfolio</a></li>
+                  <!--<li class="hidden-phone"><a href="#samples">Portfolio</a></li>-->
                   <li class="hidden-phone"><a href="#webGallery">Web Gallery</a></li>
                   <li><a href="#contactMe">Contact</a></li>
               </ul>
@@ -64,6 +65,7 @@
           </div>
           </div>
       </nav>
+
 
 <div class="container-fluid">
     <div class="row transition" id="about"> 
@@ -131,21 +133,21 @@
                 <div class='tabslider'>
 
                     <ul>
-                        <li><i class=" icon-check icon-white"></i>Scope Management</li>
-                        <li><i class=" icon-check icon-white"></i>Planning</li>
-                        <li><i class=" icon-check icon-white"></i>Monitoring</li>
-                        <li><i class=" icon-check icon-white"></i>Testing</li>
-                        <li><i class=" icon-check icon-white"></i>Work Breakdown Schedule</li>
-                        <li><i class=" icon-check icon-white"></i>Waterfall, Agile and Lean</li>
+                        <li><i class=" glyphicon glyphicon-check icon-white"></i>Agile</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Planning</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Monitoring</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Testing</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Work Breakdown Schedule</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>UML</li>
                     </ul>
 
                     <ul>
-                        <li><i class=" icon-check icon-white"></i>Graphic Design</li>
-                        <li><i class=" icon-check icon-white"></i>Web Design</li>
-                        <li><i class=" icon-check icon-white"></i>UX/UI</li>
-                        <li><i class=" icon-check icon-white"></i>Photo Processing</li>
-                        <li><i class=" icon-check icon-white"></i>Wireframe</li>
-                        <li><i class=" icon-check icon-white"></i>High Definition Internet Prototyping</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Graphic Design</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Web Design</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>UX/UI</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Photo Processing</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Wireframe</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>High Definition Internet Prototyping</li>
                     </ul>
                     <ul id="description">
                         <li>
@@ -153,15 +155,15 @@
                                 <tr>
                                     <td>HTML</td>
                                     <td>HTML5</td>
-                                    <td>XHTML</td>
-                                    <td>&nbsp;</td>
+                                    <td>JSON</td>
+                                    <td>XML</td>
                                 </tr>
                                 <tr>
                                     <td>PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
                                             <img alt="w3C certification" src="img/w3cert.png" width="50" ></a>"</td>
                                     <td>SQL</td>
                                     <td>Web Services</td>
-                                    <td>SOAP</td>
+                                    <td>RESTful API's</td>
                                 </tr>
                                 <tr>
                                     <td>CSS</td>
@@ -170,31 +172,33 @@
                                     <td>SaSS</td>
                                 </tr>
                                 <tr>
-                                    <td>Java-script</td>
+                                    <td>Javascript(ES6)</td>
                                     <td>JQuery</td>
-                                    <td>Actionscript</td>
+                                    <td>Node/Express</td>
                                     <td>AngularJS</td>
                                 </tr>
                                 <tr>
                                     <td>Joomla</td>
                                     <td>Drupal</td>
-                                    <td>Wordpress;</td>
+                                    <td>Wordpress</td>
                                     <td>&nbsp;</td>
                                 </tr>
                             </table>
                         </li>
                     </ul>
                     <ul>
-                        <li><i class=" icon-check icon-white"></i>Optimization SEO</li>
-                        <li><i class=" icon-check icon-white"></i>Social Media</li>
-                        <li><i class=" icon-check icon-white"></i>Email Marketing</li>
-                        <li><i class=" icon-check icon-white"></i>PPC</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Optimization SEO</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Social Media</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Email Marketing</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>PPC</li>
                     </ul>
                     <ul>
-                        <li><i class=" icon-check icon-white"></i>LAN Deployment and Administration</li>
-                        <li><i class=" icon-check icon-white"></i>Windows Server 2008</li>
-                        <li><i class=" icon-check icon-white"></i>Domain Deployment and Administration</li>
-                        <li><i class=" icon-check icon-white"></i>Multi Platform </li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Windows/OSX/Linux</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>LAN Deployment and Administration</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Windows Server 2008</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Domain Deployment and Administration</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Application Scaling</li>
+                        <li><i class="glyphicon glyphicon-check icon-white"></i>Continuous Integration/Deployment</li>
                     </ul>
                 </div>
 
@@ -230,17 +234,24 @@
                
         </div>
     </article>
+    <article id="portfolio">
+        <div ng-controller="slideShowCtrl">
+            <div slideshow>
+                <div slide ng-repeat="slide in slides"></div>
+            </div>
+        </div>
+    </article>
    
        <article id="contactMe">
            <div class="row container-fluid">
-        <div class="col col-lg-2 col-md-2 ">
+            <div class="col col-lg-2 col-md-2 ">
             <h3 class="articleTitle">Contact Me</h3>
-        </div>
+            </div>
                    <div class="col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-6 col-xs-offset-0 ">
                        <h3 class="phone">Phone: 503-805-5431</h3><br>
                        <h3 class="email">email: <a href="mailto:patrick@prodesigndevelop.com">patrick@prodesigndevelop.com</a></h3>
                </div>
-            
+            </div>
    </article>
 
     <footer class="row footer navbar-fixed-bottom">
@@ -252,41 +263,37 @@
                     <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fpatmcdonough.info%2F">
                         Page validated to be W3C compliant!</a></p>
             </div>
-        </div> 
-
+        </div>
     </footer>
    
    </div> <!-- close container -->
-    
-  
-    
-        <script type="text/javascript">
-                $('#name').hide;
-		$(document).ready(function(){
-		$('#name').fadeIn('slow');
-		});
-        </script>
-        <script>
-  $('#myTab a').click(function (e) {
-  e.preventDefault();
-  $(this).tab('show');
-});
-</script>
-        <script type="text/javascript">
-$('.navbar-nav a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') 
-        || location.hostname === this.hostname) {
 
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});
-</script> 
+     <script type="text/javascript">
+        $('#name').hide;
+        $(document).ready(function(){
+            $('#name').fadeIn('slow');
+        });
+     </script>
+     <script>
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show')
+            });
+     </script>
+     <script type="text/javascript">
+        $('.navbar-nav a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'')
+            || location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                   if (target.length) {
+                     $('html,body').animate({
+                         scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                    }
+                }
+            });
+        </script>
   </body>
 </html>
