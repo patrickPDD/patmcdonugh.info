@@ -1,11 +1,8 @@
-(function() {
-    var app = angular.module('webGallery', []);
-    
 app.controller('GalleryController', function()  {
     this.websites = sites;
 });
     
-            var sites = [{
+var sites = [{
         name: 'Sharp Microelectronics',
         shortname: 'sharp',
         url: 'http://sharpsma.com',
@@ -211,4 +208,4 @@ app.controller('GalleryController', function()  {
         deprecated: 'true',
         skills: "html, css, sql, coldfusion, flex, flash, PM, wireframes, UI"
         }
-];}) ();
+]

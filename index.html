@@ -37,9 +37,8 @@
         <script src="js/respond.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controllers.js"></script>
-        <script src="bower_components/angular-simple-slideshow/angular-simple-slideshow.js"></script>
     </head>
-  <body>
+  <body ng-app="mcdonough">
      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container-fluid">
               <div class="navbar-header">
@@ -49,7 +48,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Patrick McDonough</a>
+                  <a class="navbar-brand" href="#">Patrick McDonough...</a>
               </div>
 
 
@@ -68,7 +67,7 @@
 
 
 <div class="container-fluid">
-    <div class="row transition" id="about"> 
+    <div class="row transition" id="about">
         <section id="branding" class="col col-lg-10 col-md-6 col-sm-6 col-sm-offset-2 col-lg-offset-2 col-md-offset-2">
             <!--<h2 id="name" class="span5 pull-left">Patrick McDonough</h2>-->
             <div class="page-header">
@@ -82,34 +81,34 @@
         <h3 class="col articleTitle col-lg-2 col-md-offset-0 col-sm-2 hidden-phone hidden-xs ">About Me</h3>
         <section class=" col-lg-9 col-md-8 col-md-offset-0 col-sm-6 col-xs-7 col-xs-offset-0">
             <p class="lead">I am currently developing under the moniker ProDesignDevelop out of Vancouver WA.
-                I am a LAMP stack developer with front and back end experience. I just finished a contract position with 
+                I am a LAMP stack developer with front and back end experience. I just finished a contract position with
                 <a href="http://hp.com">Hewlett-Packard </a> as a front end developer.</p>
             <figure id="patrick" class="img-rounded pull-right hidden-phone" >
-            <img style="margin:0 10px; width: 100%" src="img/PatrickAlone2.png" 
+            <img style="margin:0 10px; width: 100%" src="img/PatrickAlone2.png"
                  alt="Patrick McDonough Web Developer Portland OR">
             <figcaption>Patrick McDonough</figcaption>
             </figure>
 
-            <p class="more"><strong>Project Management :</strong> I have many management skills including, portfolio management, client management, planning, 
-                estimating, budgeting, organizing, prioritizing, vendor management, calendar management and project management. 
-                All my projects are developed in a development environment with appropriate sign offs and testing before live 
-                material is posted or delivered. I am familiar with or have used several software development methodologies including 
+            <p class="more"><strong>Project Management :</strong> I have many management skills including, portfolio management, client management, planning,
+                estimating, budgeting, organizing, prioritizing, vendor management, calendar management and project management.
+                All my projects are developed in a development environment with appropriate sign offs and testing before live
+                material is posted or delivered. I am familiar with or have used several software development methodologies including
                 waterfall, agile and RAD.</p>
 
-            <p><strong>Design :</strong> I have many design skills that I have developed over the years. Design is an important 
-                component for many aspects of web development. Design comes into the equation for everything from logo design to 
-                affordance in UX/UI design and to Object Orientated database design. 
+            <p><strong>Design :</strong> I have many design skills that I have developed over the years. Design is an important
+                component for many aspects of web development. Design comes into the equation for everything from logo design to
+                affordance in UX/UI design and to Object Orientated database design.
             </p>
 
-            <p><strong>Development :</strong> I have spent thousands of hours (at least it seems) pouring over code and grudgingly 
-                learning the syntax and best practices for developing websites. I have coding abilities in HTML, HTML5, XHTML, 
+            <p><strong>Development :</strong> I have spent thousands of hours (at least it seems) pouring over code and grudgingly
+                learning the syntax and best practices for developing websites. I have coding abilities in HTML, HTML5, XHTML,
                 PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
                     <img src="img/w3cert.png" alt="W3Certified" width="50" ></a>, ColdFusion, CSS, SQL, Java-script, Jquery and
                 a few others. </p>
         </section>
         <div class="col col-lg-1 col-xs-7">&nbsp;</div>
     </main>
-      
+
     <article class="row  transition" id="skills">
 
         <div class="col col-lg-2 col-md-offset-0 col-sm-2 col-sm-offset-0 hidden-phone  hidden-xs">
@@ -202,14 +201,14 @@
                     </ul>
                 </div>
 
-            </div>  
+            </div>
         </div>
 
 
     </article>
 
-    <article> 
-        <div class="row container-fluid" id="webGallery"  ng-app="webGallery">
+    <article>
+        <div class="row container-fluid" id="webGallery">
         <div class="col col-lg-2 col-md-2 ">
             <h3 class="articleTitle">Web Gallery</h3>
         </div>
@@ -218,30 +217,23 @@
                 <li ng-repeat="sites in gallery.websites">
 
                     <h3>{{sites.name}}</h3>
-                    <div ng-hide="!sites.url"> 
+                    <div ng-hide="!sites.url">
                         <p><a href="{{sites.url}}">Click to visit site</a></p>
                     </div>
                     <div class="webGalPar"> <p class="rush">{{sites.description}}</p>
                     <h4>{{sites.skills}}</h4>
                     </div>
-                    <div class="col col-lg-3 col-md-3 col-sm-3 col-xs-3 pull-right vcenter hidden-phone" ng-hide="!sites.shortname"> 
+                    <div class="col col-lg-3 col-md-3 col-sm-3 col-xs-3 pull-right vcenter hidden-phone" ng-hide="!sites.shortname">
                         <img class="webGalImg" alt="sample web site image for {{sites.name}}" ng-src="img/webGallery/JPEG/{{sites.shortname}}.jpg"/>
                     </div>
 
                 </li>
             </ul>
         </div>
-               
+
         </div>
-    </article>
-    <article id="portfolio">
-        <div ng-controller="slideShowCtrl">
-            <div slideshow>
-                <div slide ng-repeat="slide in slides"></div>
-            </div>
-        </div>
-    </article>
-   
+    <div ng-include="/partials/portfolio.html">What the fuck</div>
+
        <article id="contactMe">
            <div class="row container-fluid">
             <div class="col col-lg-2 col-md-2 ">
@@ -265,7 +257,7 @@
             </div>
         </div>
     </footer>
-   
+
    </div> <!-- close container -->
 
      <script type="text/javascript">
