@@ -56,7 +56,7 @@
               <ul class="nav navbar-nav">
                   <li class="active"><a href="#about">About Me</a></li>
                   <li class="hidden-phone"><a class="transition" href="#skills">Skills</a></li>
-                  <!--<li class="hidden-phone"><a href="#samples">Portfolio</a></li>-->
+                  <li class="hidden-phone"><a href="#samples">Portfolio</a></li>
                   <li class="hidden-phone"><a href="#webGallery">Web Gallery</a></li>
                   <li><a href="#contactMe">Contact</a></li>
               </ul>
@@ -89,33 +89,28 @@
             <figcaption>Patrick McDonough</figcaption>
             </figure>
 
-            <p class="more"><strong>Project Management :</strong> I have many management skills including, portfolio management, client management, planning,
-                estimating, budgeting, organizing, prioritizing, vendor management, calendar management and project management.
-                All my projects are developed in a development environment with appropriate sign offs and testing before live
-                material is posted or delivered. I am familiar with or have used several software development methodologies including
-                waterfall, agile and RAD.</p>
-
             <p><strong>Design :</strong> I have many design skills that I have developed over the years. Design is an important
                 component for many aspects of web development. Design comes into the equation for everything from logo design to
                 affordance in UX/UI design and to Object Orientated database design.
             </p>
 
             <p><strong>Development :</strong> I have spent thousands of hours (at least it seems) pouring over code and grudgingly
-                learning the syntax and best practices for developing websites. I have coding abilities in HTML, HTML5, XHTML,
+                learning the syntax and best practices for developing websites. I have coding abilities in HTML, HTML5,
                 PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
-                    <img src="img/w3cert.png" alt="W3Certified" width="50" ></a>, ColdFusion, CSS, SQL, Java-script, Jquery and
+                    <img src="img/w3cert.png" alt="W3Certified" width="50" ></a>, AngularJS, CSS, SQL, Java-script, Jquery and
                 a few others. </p>
+            <p> I am adapt at the process with Agile experience</p>
         </section>
         <div class="col col-lg-1 col-xs-7">&nbsp;</div>
     </main>
 
-    <article class="row  transition" id="skills">
-
-        <div class="col col-lg-2 col-md-offset-0 col-sm-2 col-sm-offset-0 hidden-phone  hidden-xs">
+    <article>
+        <div class="row container-fluid" id="skills">
+        <div class="col col-lg-2 col-md-offset-0 col-sm-hidden col-sm-offset-0 hidden-phone  hidden-xs">
             <h3 class="articleTitle">Skills</h3>
         </div>
 
-        <div id="oldStyleSkills" class="col tabbed_content hidden-phone col-sm-10 col-xs-3 col-lg-8 col-md-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-1">
+        <div id="oldStyleSkills" class="col tabbed_content hidden-phone col-sm-8 col-xs-3 col-lg-8 col-md-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
 
             <div class='tabs'>
                 <div class='moving_bg'>
@@ -203,7 +198,7 @@
 
             </div>
         </div>
-
+    </div>
 
     </article>
 
@@ -230,9 +225,9 @@
                 </li>
             </ul>
         </div>
-
-        </div>
-    <div ng-include="/partials/portfolio.html">What the fuck</div>
+            </div>
+    </article>
+    <div ng-include="'partials/portfolio.html'"></div>
 
        <article id="contactMe">
            <div class="row container-fluid">
@@ -257,7 +252,7 @@
             </div>
         </div>
     </footer>
-
+    </article>
    </div> <!-- close container -->
 
      <script type="text/javascript">

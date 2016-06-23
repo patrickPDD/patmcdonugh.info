@@ -1,7 +1,3 @@
-app.controller('GalleryController', function()  {
-    this.websites = sites;
-});
-    
 var sites = [{
         name: 'Sharp Microelectronics',
         shortname: 'sharp',
