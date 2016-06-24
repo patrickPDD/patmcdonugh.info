@@ -79,12 +79,12 @@
     </div>
     <main class="row">
         <h3 class="col articleTitle col-lg-2 col-md-offset-0 col-sm-2 hidden-phone hidden-xs ">About Me</h3>
-        <section class=" col-lg-9 col-md-8 col-md-offset-0 col-sm-6 col-xs-7 col-xs-offset-0">
-            <p class="lead">I am currently developing under the moniker ProDesignDevelop out of Vancouver WA.
+        <section class=" col-lg-8 col-md-7 col-md-offset-0 col-sm-6 col-xs-7 col-xs-offset-0">
+            <p class="lead">I am currently designing and developing full stack applications under the moniker ProDesignDevelop out of Vancouver WA.
                 I am a LAMP stack developer with front and back end experience. I just finished a contract position with
-                <a href="http://hp.com">Hewlett-Packard </a> as a front end developer.</p>
+                Hewlett-Packard as a front end developer.</p>
             <figure id="patrick" class="img-rounded pull-right hidden-phone" >
-            <img style="margin:0 10px; width: 100%" src="img/PatrickAlone2.png"
+            <img style="margin:0 10px; width: 50%" src="img/PatrickAlone2.png"
                  alt="Patrick McDonough Web Developer Portland OR">
             <figcaption>Patrick McDonough</figcaption>
             </figure>
@@ -99,7 +99,6 @@
                 PHP<a href="http://www.refsnesdata.no/certification/w3certified.asp?id=5155312">
                     <img src="img/w3cert.png" alt="W3Certified" width="50" ></a>, AngularJS, CSS, SQL, Java-script, Jquery and
                 a few others. </p>
-            <p> I am adapt at the process with Agile experience</p>
         </section>
         <div class="col col-lg-1 col-xs-7">&nbsp;</div>
     </main>
@@ -208,8 +207,21 @@
             <h3 class="articleTitle">Web Gallery</h3>
         </div>
         <div class="row" ng-controller="GalleryController as gallery">
+            <label class="label">Select Tech </label> <select class="pull-down" data-ng-model="search.skills">
+                <option value="">All</option>
+                <option value="php">PHP</option>
+                <option value="wordpress">Wordpress</option>
+                <option value="drupal">Drupal</option>
+                <option value="joomla">Joomla</option>
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="javascript">Javascript</option>
+                <option value="sql">SQL</option>
+                <option value="coldfusion">ColdFusion</option>
+                <option value="PM">Project Manager</option>
+            </select>
             <ul class="col gal col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-7 col-xs-offset-0 ">
-                <li ng-repeat="sites in gallery.websites">
+                <li ng-repeat="sites in gallery.websites | filter: search.skills ">
 
                     <h3>{{sites.name}}</h3>
                     <div ng-hide="!sites.url">

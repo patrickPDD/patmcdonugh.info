@@ -1,4 +1,20 @@
 var sites = [{
+        name: 'Hewlett-Packard Instant Ink Service',
+        shortname: 'HP',
+        url: 'http://www.jeld-wen.com/en-us/findastore',
+        description: 'Several projects for Jeld-Wen including Find a store, Coastal Selections and Jeld-Wen Canada',
+        deprecated: 'false',
+        skills: 'php, sql, javascript, json, joomla',
+        },
+        {
+        name: 'Jeld-Wen Windows and Doors',
+        shortname: 'jeld-wen',
+        url: 'http://www.jeld-wen.com/en-us/findastore',
+        description: 'Several projects for Jeld-Wen including Find a store, Coastal Selections and Jeld-Wen Canada',
+        deprecated: 'false',
+        skills: 'php, sql, javascript, json, joomla',
+        },
+        {
         name: 'Sharp Microelectronics',
         shortname: 'sharp',
         url: 'http://sharpsma.com',
@@ -26,7 +42,7 @@ var sites = [{
         name:'Nineteen67.com',
         shortname: 'nineteen',
         url:'http://dev-nineteen67.com.talikcreative.com/',
-        description: 'This is a Wordpress site based on a theme from webcreations. I was the customer contact and the loan developer.', 
+        description: 'This is a Wordpress site based on a theme from webcreations. I was the customer contact and the loan developer.',
         deprecated: 'false',
         skills: "html, css, sql, php, javascript, jquery, PM, WP child theme"
         },
