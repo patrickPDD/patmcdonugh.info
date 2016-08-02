@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/*aside,article,section,header,footer,nav,form,div {
+	display: block;
+}*/
+
+/*div,p,img {
+	margin:0;
+	padding:0;
+}*/
+/*article {
+	padding: 10px 25px;
+}*/
+
+/*#contact {
+	margin-top:300px;
+}*/
+html {
+	background: url(../img/bgBig.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:0;
+	margin:0
+}
+
+body {
+	//background:url(../img/bg.jpg) repeat-x;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6)!important;
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	color:#fff;
+	//font-size:1.0em;
+	//font-family:Arial, Helvetica, sans-serif;
+	margin: 0px auto;
+	
+	width: 900px;
+	//margin: 0px auto;
+}
+p {
+	color:#ddd;
+}
+p:hover {
+color: #fff;
+webkit-transition: color 1s linear;
+}
+/*body header {
+	width:100%;
+	height:105px;
+	padding:10px 5px;
+	margin-top:2px;
+}*/
+
+.headerOne {
+	font-size:30pt;
+	color:#fff;
+	
+}
+
+
+
+/*body footer {
+	color: #101010;
+	line-height:20px;
+	font-size:0.7em;
+	padding:0px;
+	margin-right:5px;
+	text-align : left;
+	float:left;
+	background-color:#e1dcc8;
+	width:100%;
+	margin-top:30px;
+}*/
+
+/*nav {
+	font-size:0.9em;
+	width:400px;
+	float: right;
+	margin-top:-70px;
+}*/
+
+/*#patrick {
+	float: right;
+	position: relative;
+	left: 255px;
+	top:-310px;
+	
+}*/
+
+/*body nav a:hover {
+	background: url(../images/nav-bg-main.jpg) no-repeat center;
+	color:#00a5af;
+}*/
+
+/*#about {
+	Margin-top:20px;
+}*/
+/*form {
+		width: 459px;
+	}
+	input, textarea {
+	width:390px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}*/
+
+/*textarea {
+	height:213px;
+	/*background:url(../images/textarea-bg.jpg) right no-repeat #efefef;*/
+}*/
+/*input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}*/
+
+/*#skills {
+	width: 590px;
+}*/
+/*aside {
+	background-color: #AAAAAA;
+	width: 400px;
+}*/
+
+
+//tabbed JAvascript slider 
+
+.tabbed_content {
+	background-color:rgba(0, 0, 0, 0.6);
+
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; 
+	width: 100%; */
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter 
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";*/
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 
+	filter: alpha(opacity=50);*/
+
+	/* Older than Firefox 0.9
+	-moz-opacity:0.5; */
+
+	/* Safari 1.x (pre WebKit!)
+	-khtml-opacity: 0.5; */
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ 
+	opacity: 0.5;*/
+
+	width: 850px;	
+	float: left;
+}
+
+.tabs {
+	height: 62px;
+	position: relative;
+}
+
+.tabs .moving_bg {
+	padding: 15px;
+	background-color:#4D7ABB;
+	background-image:url(../images/arrow_down_green.gif);
+	position: absolute;
+	width: 125px;
+	z-index: 190;
+	left: 0;
+	padding-bottom: 29px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.tabs .tab_item {
+	display: block;
+	float: left;
+	padding: 15px;
+	width: 125px;
+	color: #ffffff;
+	text-align: center;
+	z-index: 200;
+	position: relative;
+	cursor: pointer;
+	line-height: 1em;
+	
+}
+
+.tabbed_content .slide_content {
+	overflow: hidden;
+/* IE9 SVG, needs conditional override of 'filter' to 'none'--- from http://www.colorzilla.com/gradient-editor/ */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDQwNTA0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTMlIiBzdG9wLWNvbG9yPSIjMDQwNTA0IiBzdG9wLW9wYWNpdHk9IjAuODciLz4KICAgIDxzdG9wIG9mZnNldD0iMzclIiBzdG9wLWNvbG9yPSIjNGQ3YWJiIiBzdG9wLW9wYWNpdHk9IjAuNjQiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjMTAxMTEwIiBzdG9wLW9wYWNpdHk9IjAuNTIiLz4KICAgIDxzdG9wIG9mZnNldD0iNjIlIiBzdG9wLWNvbG9yPSIjMTAxMjExIiBzdG9wLW9wYWNpdHk9IjAuNCIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MyUiIHN0b3AtY29sb3I9IiMxMDEzMTMiIHN0b3Atb3BhY2l0eT0iMC4wOSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMTAxMzE0IiBzdG9wLW9wYWNpdHk9IjAuMDkiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(45deg,  rgba(4,5,4,1) 0%, rgba(4,5,4,0.87) 13%, rgba(77,122,187,0.64) 37%, rgba(16,17,16,0.52) 49%, rgba(16,18,17,0.4) 62%, rgba(16,19,19,0.09) 83%, rgba(16,19,20,0.09) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(4,5,4,1)), color-stop(13%,rgba(4,5,4,0.87)), color-stop(37%,rgba(77,122,187,0.64)), color-stop(49%,rgba(16,17,16,0.52)), color-stop(62%,rgba(16,18,17,0.4)), color-stop(83%,rgba(16,19,19,0.09)), color-stop(100%,rgba(16,19,20,0.09))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgba(4,5,4,1) 0%,rgba(4,5,4,0.87) 13%,rgba(77,122,187,0.64) 37%,rgba(16,17,16,0.52) 49%,rgba(16,18,17,0.4) 62%,rgba(16,19,19,0.09) 83%,rgba(16,19,20,0.09) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgba(4,5,4,1) 0%,rgba(4,5,4,0.87) 13%,rgba(77,122,187,0.64) 37%,rgba(16,17,16,0.52) 49%,rgba(16,18,17,0.4) 62%,rgba(16,19,19,0.09) 83%,rgba(16,19,20,0.09) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgba(4,5,4,1) 0%,rgba(4,5,4,0.87) 13%,rgba(77,122,187,0.64) 37%,rgba(16,17,16,0.52) 49%,rgba(16,18,17,0.4) 62%,rgba(16,19,19,0.09) 83%,rgba(16,19,20,0.09) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgba(4,5,4,1) 0%,rgba(4,5,4,0.87) 13%,rgba(77,122,187,0.64) 37%,rgba(16,17,16,0.52) 49%,rgba(16,18,17,0.4) 62%,rgba(16,19,19,0.09) 83%,rgba(16,19,20,0.09) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040504', endColorstr='#17101314',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+
+	padding: 20px 0 20px 20px;
+	position: relative;
+	width: 760px;
+}
+
+.tabslider {
+	width: 5000px;
+}
+
+.tabslider ul {
+	float: left;
+	width: 760px;
+	margin: 0px;
+	padding: 0px;
+	//margin-right: 40px;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+.tabslider ul a {
+	color: #FBF9EE;
+	text-decoration: none;
+}
+
+.tabslider ul a:hover {
+	color: #A5090Da; 
+}
+
+.tabslider ul li {
+	padding-bottom: 7px;
+	color: #ffffff;
+}
+
+legend {
+	color:#fff;
+}
+
+#about .hidden-phone img { margin: 0 10px; }
+
+.carousel {
+	height:350px;
+	width:500px;
+}
+
+.carousel .item {
+	height:335px;
+}
+
+

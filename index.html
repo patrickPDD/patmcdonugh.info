@@ -79,11 +79,11 @@
     </div>
     <main class="row">
         <h3 class="col articleTitle col-lg-2 col-md-offset-0 col-sm-2 hidden-phone hidden-xs ">About Me</h3>
-        <section class=" col-lg-8 col-md-7 col-md-offset-0 col-sm-6 col-xs-7 col-xs-offset-0">
+        <section class=" col-lg-8 col-md-7 col-md-offset-0 col-sm-6 col-xs-4 col-xs-offset-0">
             <p class="lead">I am currently designing and developing full stack applications under the moniker ProDesignDevelop out of Vancouver WA.
                 I am a LAMP stack developer with front and back end experience. I just finished a contract position with
                 Hewlett-Packard as a front end developer.</p>
-            <figure id="patrick" class="img-rounded pull-right hidden-phone" >
+            <figure id="patrick" class="img-rounded pull-right" >
             <img style="margin:0 10px; width: 50%" src="img/PatrickAlone2.png"
                  alt="Patrick McDonough Web Developer Portland OR">
             <figcaption>Patrick McDonough</figcaption>
@@ -109,7 +109,7 @@
             <h3 class="articleTitle">Skills</h3>
         </div>
 
-        <div id="oldStyleSkills" class="col tabbed_content hidden-phone col-sm-8 col-xs-3 col-lg-8 col-md-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
+        <div id="oldStyleSkills" class="col tabbed_content hidden-phone hidden-xs  col-lg-8 col-md-6 col-lg-offset-0 col-md-offset-1 col-sm-offset-0">
 
             <div class='tabs'>
                 <div class='moving_bg'>
@@ -122,7 +122,7 @@
                 <span class='tab_item'>IT</span>
             </div>
 
-            <div class='slide_content'>
+            <div class='slide_content '>
                 <div class='tabslider'>
 
                     <ul>
@@ -220,18 +220,21 @@
                 <option value="coldfusion">ColdFusion</option>
                 <option value="PM">Project Manager</option>
             </select>
-            <ul class="col gal col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-7 col-xs-offset-0 ">
-                <li ng-repeat="sites in gallery.websites | filter: search.skills ">
+            <ul class="col gal col-lg-9 col-md-8 col-sm-6 col-md-offset-2 col-xs-4 ">
+                <li class="gallery-divs" ng-repeat="sites in gallery.websites | filter: search.skills ">
 
                     <h3>{{sites.name}}</h3>
-                    <div ng-hide="!sites.url">
-                        <p><a href="{{sites.url}}">Click to visit site</a></p>
+                    <div class="clickToVisit" ng-hide="!sites.url">
+                        <p ><a href="{{sites.url}}">Click to visit site</a></p>
                     </div>
-                    <div class="webGalPar"> <p class="rush">{{sites.description}}</p>
-                    <h4>{{sites.skills}}</h4>
-                    </div>
-                    <div class="col col-lg-3 col-md-3 col-sm-3 col-xs-3 pull-right vcenter hidden-phone" ng-hide="!sites.shortname">
-                        <img class="webGalImg" alt="sample web site image for {{sites.name}}" ng-src="img/webGallery/JPEG/{{sites.shortname}}.jpg"/>
+                    <div class="webGalPar">
+                        <div class="imgdiv" ng-hide="!sites.shortname">
+                            <img class="webGalImg" alt="sample web site image for {{sites.name}}" ng-src="img/webGallery/JPEG/{{sites.shortname}}.jpg"/>
+                        </div>
+                        <p class="rush">{{sites.description}}</p>
+                        <h4>{{sites.skills}}</h4>
+
+
                     </div>
 
                 </li>
@@ -246,7 +249,7 @@
             <div class="col col-lg-2 col-md-2 ">
             <h3 class="articleTitle">Contact Me</h3>
             </div>
-                   <div class="col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-6 col-xs-offset-0 ">
+                   <div class="col-lg-9 col-md-8 col-sm-9 col-md-offset-2 col-xs-6 col-xs-offset-1 ">
                        <h3 class="phone">Phone: 503-805-5431</h3><br>
                        <h3 class="email">email: <a href="mailto:patrick@prodesigndevelop.com">patrick@prodesigndevelop.com</a></h3>
                </div>

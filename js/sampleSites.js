@@ -58,7 +58,7 @@ var sites = [{
         name: 'Phamexpo.com',
         shortname: 'phame',
         url: ' ',
-        description: 'Created Joomla with Magento ecommerce. Added many components, modules and plug-ins to create a social media hub and Magento ecommerce site for a new trade show company in Oregon City OR. This site has been deprecated for a wordpress site.', 
+        description: 'Created Joomla with Magento ecommerce. Added many components, modules and plug-ins to create a social media hub and Magento ecommerce site for a new trade show company.',
         deprecated: 'true',
         skills: "html, css, cms, php, ecommerce, javascript, jquery, PM, joomla, Magento"
         },
@@ -74,7 +74,7 @@ var sites = [{
         name: 'Headhunters NW', 
         shortname: 'headhunter',
         url: 'http://headhuntersnw.com',
-        description: 'I managed and deployed the development of the site from wireframe to prototype to live production. I determined the best Content Management System (CMS) to use based on the projects sponsors requirements and available modules. I chose Joomla. The site has a unique slideshow in the body using CSS3 (no JavaScript) In addition I researched the optimum keywords to use in the sites SEO strategy and wrote the page descriptions',
+        description: 'I managed and deployed the development of the site from wireframe to prototype to live production. The site has a unique slideshow in the body using CSS3 (no JavaScript) In addition I researched the optimum keywords to use in the sites SEO strategy and wrote the page descriptions',
         deprecated: 'false',
         skills: "html, css, sql, php, joomla, PM, wireframes, UI"
         },
@@ -82,7 +82,7 @@ var sites = [{
         name: 'Makeupmag.com',
         shortname: 'makeup',
         url:'http://makeupmag.com',
-        description:'This is an oscommerce site with some custom Content Management System (CMS) built in. This is a highly customized site that uses specific business logic required by Key Publishing group. I was responsible for many updates and maintenance including adding a Pro Card application that has implications across the whole site, discounting based on group, currency values and interaction with the ticket and subscription software.', 
+        description:'Oscommerce site with some custom Content Management System (CMS) built in. This is a highly customized site that uses specific business logic required by Key Publishing Group. I was responsible for updates and maintenance including adding a Pro Card application that has implications across the whole site, discounting based on group, currency values and interaction with the ticket and subscription software.',
         deprecated: 'false',
         skills: "html, css, sql, php, xml, javascript, jquery,PM"
         },
@@ -90,7 +90,7 @@ var sites = [{
         name: 'IMATS.net',
         shortname: 'imats2',
         url:'http://imats.com',
-        description:'This is currently a Content Management System (CMS) site built on an MVC framework and I am currently managing the ecommerce build. I work with the art department, editors and third party developers in managing this site. Update actionscript in flv file for booth assignments. Created UI and hand coded PHP and JavaScript for our Student Competition page that swaps out videos into a div. (http://www.imats.net/london/london_student_competition.php)',
+        description:'Content Management System (CMS) site built on an MVC framework and I am currently managing the ecommerce build. I work with the art department, editors and third party developers in managing this site. Update actionscript in flv file for booth assignments. Created UI and hand coded PHP and JavaScript for our Student Competition page that swaps out videos into a div.',
         deprecated: 'true',
         skills: "html, css, sql, php, javascript, jquery, PM"
         },
@@ -98,7 +98,7 @@ var sites = [{
         name: 'Makeup411.com',
         shortname: 'makeup411',
         url:'http://makeup411.com',
-        description:'This is an OsCommerce CMS site and I managed and applied business logic updates. I worked with the art department, editors and third party developers in managing and updating this site. Currently worked on a server side script to detect browser/mobile attributes that incorporates WURFL API and a redirect to a mobile version of this site.',
+        description:'OsCommerce CMS site and I managed and applied business logic updates. Worked with the art department, editors and third party developers in managing and updating this site. Script to detect browser/mobile attributes that incorporates WURFL API and a redirect to a mobile version of this site.',
         deprecated: 'false',
         skills: "html, css, sql, php, javascript, jquery, PM"
         },
@@ -130,7 +130,7 @@ var sites = [{
         name: 'NorthCoastlodge.net',
         shortname: 'northcoast',
         url:'',
-        description:'In this project I designed a custom Wordpress theme in Photoshop. I then produced this multi-page website including a plug in for making rental reservations.',
+        description:'I designed a custom Wordpress theme in Photoshop. I then produced this multi-page website including a plug in for making rental reservations.',
         deprecated: 'true',
         skills: "html, css, sql, php, javascript, jquery, PM, wordpress"
         },
@@ -146,7 +146,7 @@ var sites = [{
         name: 'VancouverWoodworks.com',
         shortname: '',
         url: '',
-        description: 'In this project I developed the entire site. I created the UI in Photoshop and skinned  our ecommerce engine (grfxstore) with the art.  As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. The site has since been migrated to an ASP environment but has the same look and feel.', 
+        description: 'I developed entire site. Created the UI comps in Photoshop and skinned  our ecommerce engine (grfxstore) with the art.  As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion"
         },
@@ -154,7 +154,7 @@ var sites = [{
         name: 'DiscoverLocals.org',
         shortname: '',
         url: '',
-        description: 'Created the brand identity for this non-profit network. Working with the steering committee I developed all aspects of their brand including ID, collateral and marketing across the print and internet space. The website itself is based on my own grfxsclub application running on a fusebox framework and MySQL datasource. Email campaigns are an intricate part to the marketing of this site.', 
+        description: 'Created the brand identity for this non-profit network. Working with the steering committee I developed all aspects of their brand including ID, collateral and marketing across the print and internet space. The website itself is based on my own grfxsclub application running on a fusebox framework and MySQL datasource.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion"
         },
@@ -162,7 +162,7 @@ var sites = [{
         name: 'theweddinggenies.com',
         shortname: '',
         url:'',
-        description:'This site was built using coldfusion, AJAX, AS3 (in both FLA and Flex apps) for a rich internet experience for wedding planners. I was the art director and project manager responsible for work documents, budgeting, time management, human assets, monitoring progress and evaluating results. I created the design templates, user cases, site map, Gantt chart and the assignment matrix. I worked with a production team that I picked from as far away as New Zealand. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.',
+        description:'Site for new brides. Designed and developed.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion"
         },
@@ -170,7 +170,7 @@ var sites = [{
         name: 'Snowboard Builder Prototype',
         shortname: '',
         url: '',
-        description:'This site is a complex mix of coldfusion, AS3 in Flash, Ruby on rails and ImageMagic. I worked with a team of developers as the project manager, server manager and art director. This site will allow registered users to upload image assets and then with a Flash based GUI, design a snowboard. The administrator then can produce print ready pdf’s. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories.',
+        description:'Coldfusion, AS3 in Flash, Ruby on rails and ImageMagic. I worked with a team of developers as the project manager, server manager and art director. This site will allow registered users to upload image assets and then with a Flash based GUI, design a snowboard. The administrator then can produce print ready pdf’s.',
         deprecated: 'false',
         skills: "html, css, sql, coldfusion, flex, flash, PM, wireframes, UI"
         },
@@ -178,7 +178,7 @@ var sites = [{
         name: 'Audio Rental Site',
         shortname: '',
         url:'http://www.dfxaudio.com/',
-        description:'This site uses CFC’s and Flash remoting to display rental and sales merchandise in an attractive flash based GUI. I designed and built the GUI with Flash and worked with a AS2 developer to transact with the CF administrator that I produced. As the systems manager for this project I created the MySQL schema, Coldfusiondatasource and in IIS I administered the configuration of the domain and virtual directories.',
+        description:'I designed and built the GUI with Flash and worked with a AS2 developer to transact with the CF administrator that I produced. As the systems manager for this project I created the MySQL schema, Coldfusiondatasource and in IIS I administered the configuration of the domain and virtual directories.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion, actionscript, flash, PM, wireframes, UI"
         },
@@ -186,7 +186,7 @@ var sites = [{
         name: 'world-cuisine.com',
         shortname: 'world',
         url:'http://world-cuisine.com',
-        description:'This site was produced by my team with myself as Production Manager. It incorporates Flash for a nice flipping page effect (removed in update of April-08). The site is produced on our store framework using Coldfusion. As the systems manager for this project I created the MySQL schema, Coldfusion datasource and in IIS I administered the configuration of the domain and virtual directories.', 
+        description:'Produced by my team with myself as Production Manager. The site is produced on our store framework using Coldfusion. As the systems manager for this project I created the MySQL schema, Coldfusion datasource and in IIS I administered the configuration of the domain and virtual directories.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion, PM, wireframes, UI"
         },
@@ -201,7 +201,7 @@ var sites = [{
         name: 'Northridgeinc.com',
         shortname: 'northridge',
         url:'http://Northridgeinc.com',
-        description:'In this production I worked alone to graft new artwork I created to a coldfusion based framework for both eCommerce and dynamic content. I accomplished this using Adobe Fireworks and Dreamweaver. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design.',
+        description:'In this production I worked alone to graft new artwork I created to a coldfusion based framework for both eCommerce and dynamic content. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. I created the corporate logo and website design.',
         deprecated: 'false'
         },
         {
@@ -216,7 +216,7 @@ var sites = [{
         name: 'CulinaryDirect.com',
         shortname: 'culinary',
         url:'',
-        description:'Another eCommerce site based on our Coldfusion store framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design. In addition I implemented a PPC campaign on Google Adwords and Overture. The site has since been updated.', 
+        description:'GRFXS Coldfusion store framework. The framework is based loosely on the fusebox framework. As the systems manager for this project I created the MySQL schema, coldfusiondatasource and in IIS I administered the configuration of the domain, SSL certificates and virtual directories. As the Art Director I created the corporate logo and website design. In addition I implemented a PPC campaign on Google Adwords and Overture. The site has since been updated.',
         deprecated: 'true',
         skills: "html, css, sql, coldfusion, flex, flash, PM, wireframes, UI"
         }
